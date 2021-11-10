@@ -133,7 +133,7 @@
                 "S3Bucket": "awslabs-new-instance-sync-lambda",
                 "S3Key": "new-instance-code-sync.zip"
             },
-            "Runtime":"python2.7",
+            "Runtime":"python3.9",
             "Timeout":300,
             "Handler":"new-instance-code-sync.lambda_handler",
             "MemorySize":512
